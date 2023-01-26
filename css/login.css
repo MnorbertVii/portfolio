@@ -1,0 +1,157 @@
+.alert {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #36f492;
+    color: white;
+    text-align: center;
+    z-index: 999;
+    display: none;
+  }
+  #noAlert{
+    background-color: #b82d07;
+
+  }
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #3C3535;
+    color: white;
+    font-family: inter;
+    font-weight: lighter;
+}
+.box-form{
+    border: 0%;
+    background-color: #4B4343;
+    height:fit-content;
+    width: 25rem;
+    margin-left: 32rem;
+    margin-top: 3rem;
+    padding: 0.5rem;
+}
+input[type=text], input[type=password] {
+    width: 20rem;
+    margin-left: 2rem;
+    display: inline-block;
+    border: 1px solid #CE7B7B;
+    border-radius: 0.2rem;
+    background-color: #4B4343;
+    height: 2.4rem;
+    caret-color: white;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+label[for=email]{
+    margin-top: 2rem;
+}
+.mail,.pswd{
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-family: inter;
+    font-weight: lighter;
+}
+.forgot{
+    color: white;
+    margin-bottom: 1rem;
+    font-family: inter;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin-left: 16rem;
+    margin-top: 1rem;
+}
+.log-in{
+    height: 2.5rem;
+    width:6rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: #CE7B7B;
+    border-style: hidden;
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+
+}
+.log-in:hover{
+    background-color:#312c2c;
+    cursor:pointer;
+}
+.signin{
+    color:white;
+    font-family: inter;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.register{
+    display: inline-flex;
+}
+.choose{
+    font-family: inter;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: white;
+    margin-left: 2rem;
+    margin-top: -1rem;
+
+}
+.access{
+    text-decoration: none;
+    color: white;
+    font-family: inter;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-left: 6rem;
+    margin-bottom: -2rem;
+}
+.continue{
+    font-family: inter;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: white;
+    margin-left: 9rem;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+.github-login,.linkedin-login,.google-login{
+    height: 1.5rem;
+}
+
+.git-login,.in-login,.ggle-login{
+    height:2rem;
+    width:6rem;
+    background-color: #4B4343;
+    border-radius: 0.2rem;
+    border-color: #CE7B7B;
+    border-style:groove
+    
+}
+.forgot-password a:hover{
+    color: #CE7B7B;
+}
+.git-login:hover,.in-login:hover,.ggle-login:hover{
+    background-color: #CE7B7B;
+    cursor:pointer;
+}
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control .error {
+    display: none;
+    color: #ff3860;
+    font-size: 0.8rem;
+    height: 13px;
+    margin-left: 2rem;
+    font-family: inter;
+}

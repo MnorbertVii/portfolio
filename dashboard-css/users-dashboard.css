@@ -1,0 +1,30 @@
+.content-sctn{
+    margin-left: 16.8rem;
+    margin-top: 3rem;
+}
+.content{
+    display: flex;
+}
+.prof-photo{
+    height: 5rem;
+    border-radius: 50rem;
+    width: 5rem;
+    margin-right: 4rem;
+}
+.user-informations{
+    color: white;
+    line-height: 1rem;
+    margin-top: -0.2rem;
+    margin-right: 32rem;
+}
+.right-icon{
+    margin-top: 0.8rem;
+}
+.optn-vctr{
+    height: 1.8rem;
+}
+.users-title{
+    margin-left: 16.8rem;
+    color: #CE7B7B;
+    font-size: 2.3rem;
+}

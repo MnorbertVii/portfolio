@@ -1,0 +1,169 @@
+.alert {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #36f492;
+    color: white;
+    text-align: center;
+    z-index: 999;
+    display: none;
+  }
+  #noAlert{
+    background-color: #b82d07;
+
+  }
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #3C3535;
+}
+.box-form{
+    border: 0%;
+    background-color: #4B4343;
+    height:fit-content;
+    width: 25rem;
+    margin-left: 30rem;
+    padding: 0.2rem;
+}
+#my-title{
+    font-family: poppins;
+    font-weight: bold;
+    margin-left: 32rem;
+    color: #CE7B7B;
+    font-size: 2.5rem;
+}
+input[type=text], input[type=password] {
+    width: 20rem;
+    border: 1px solid #CE7B7B;
+    border-radius: 0.2rem;
+    background-color: #4B4343;
+    height: 2.4rem;
+    margin-left: 2rem;
+    caret-color: white;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+}
+.mail{
+    margin-top: 2rem;
+}
+.mail,.pswd,.pswd2{
+    color: white;
+    margin-left: 2rem;
+    font-family: inter;
+    font-weight: lighter;
+}
+.forgot{
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-family: inter;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin-left: 15.5rem;
+}
+.sign-up{
+    height: 2.5rem;
+    width:6rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    background-color: #CE7B7B;
+    border-style: hidden;
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+    margin-left: 7.5rem;
+
+}
+.sign-up:hover{
+    background-color:#312c2c;
+    cursor:pointer;
+}
+.signup{
+    color:white;
+    font-family: inter;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.register{
+    display: inline-flex;
+}
+.choose{
+    font-family: inter;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: white;
+    margin-left: 2rem;
+    margin-top: -1rem;
+
+}
+.access{
+    text-decoration: none;
+    color: white;
+    font-family: inter;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-left: 7rem;
+    margin-bottom: -2rem;
+}
+.continue{
+    font-family: inter;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: white;
+    margin-left: 9rem;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+.github-login,.linkedin-login,.google-login{
+    height: 1.5rem;
+}
+
+.git-login,.in-login,.ggle-login{
+    height:2rem;
+    width:6rem;
+    margin-left: 0.5rem;
+    background-color: #4B4343;
+    border-radius: 0.2rem;
+    border-color: #CE7B7B;
+    border-style:groove
+    
+}
+.ggle-login,.in-login{
+    margin-left: -0.5rem;
+}
+.rmbr{
+    font-size:0.8rem;
+    font-family: inter;
+    font-weight: lighter;
+    color: white;
+    
+}
+.check-box{
+    margin-left: 2rem;
+}
+.git-login:hover,.in-login:hover,.ggle-login:hover{
+    background-color: #CE7B7B;
+    cursor:pointer;
+}
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+
+.input-control .error {
+    display: none;
+    color: #ff3860;
+    font-size: 0.8rem;
+    height: 13px;
+    margin-left: 2rem;
+    font-family: inter;
+}

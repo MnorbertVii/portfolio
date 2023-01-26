@@ -1,0 +1,117 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #3C3535;
+}
+.contact-informations{
+    display: flex;
+}
+.left-side-0{
+    border: 0%;
+    background-color: #4B4343;
+    width: 20rem;
+    height: 25rem;
+    margin-left: 8rem;
+    margin-top: 5.5rem;
+}
+.title h1{
+    font-family: poppins;
+    font-weight: bold;
+    color: #CE7B7B;
+    margin-left: 3rem;
+
+}
+.contact-info ul{
+   margin-left: 1rem;
+}
+.contact-info ul li{
+    list-style: none;
+}
+.phone-icon,.email-icon,.location-icon{
+    height: 2rem;
+    margin-bottom: -0.5rem;
+    margin-right: 1rem;
+}
+.info-icons{
+    display: block;
+    line-height: 4rem;
+}
+.location-icon{
+    margin-left: -0.5rem;
+    margin-bottom: -0.5rem;
+}
+.social-media{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.value{
+    color: #DDDD;
+    font-family: inter;
+    font-weight: lighter;
+
+}
+.value-loc{
+    color: #DDDD;
+    font-family: inter;
+    font-weight: lighter;
+    margin-left: -0.5rem;
+}
+.right-side-0{
+    margin-left: 20rem;
+    margin-top: 5.5rem;
+}
+.names{
+    border: 0%;
+    border-style: hidden;
+    border-radius: 0.3rem;
+    background-color: #4B4343;
+    width: 25rem;
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.mail{
+    border: 0%;
+    border-style: hidden;
+    border-radius: 0.3rem;
+    background-color: #4B4343;
+    width: 25rem;
+    height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.message{
+    border: 0%;
+    border-style: hidden;
+    border-radius: 0.3rem;
+    background-color: #4B4343;
+    width: 25rem;
+    height: 13rem;
+    margin-bottom: 1.5rem;
+}
+.submit-button{
+    background-color: #CE7B7B;
+    height: 2.2rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    border-style: hidden;
+}
+.submit{
+    font-size:1rem;
+    font-family: inter;
+    font-weight: 300;
+    color:white;
+}
+.submit-button:hover{
+    cursor:pointer;
+    opacity: 0.9;
+}
+#message, #mail, #nm{
+    background-color: #4B4343;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    outline: none;
+    caret-color: white;
+    border-style: hidden;
+}
+#nm,#mail, #message{
+    margin-bottom: 0.8rem;
+}

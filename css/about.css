@@ -1,0 +1,80 @@
+.body{
+background-color: #3C3535;
+padding: 0;
+margin: 0;
+}
+.about-home{
+   display: flex; 
+}
+.right{
+    margin-left: 10rem;
+    margin-top: 3rem;
+    border-radius: 0%;
+    width: 40rem;
+    background-color: #403E3E;
+}
+.right h2{
+    font-family: inter;
+    font-weight: 400;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+.about-photo{
+    height: 25rem;
+    width: 15rem;
+    margin-top: 4rem;
+    margin-right: 6rem;
+    margin-left: 10rem;
+    border-radius: 3%;
+}
+.about-paragraph, .par-2, .hi{
+    color: #DDDDDD;
+    font-family: inter;
+    font-weight: 300;
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
+}
+.par-2{
+    margin-bottom: 3rem;
+}
+.social-media{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+.linkedin-icon, .twitter-icon{
+    margin-right: 1.5rem;
+}
+.linkedin-link, .twitter-link{
+    color: #DDDDDD;
+    font-family: inter;
+    font-weight: 200;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+
+}
+
+@media screen and (max-width: 600px){
+    .about-home{
+        display: block;
+    }
+    .about-photo{
+        margin-left: 2rem;
+    }
+    .right{
+        margin-left: 1rem;
+        width: 22rem;
+
+    }
+    .about-paragraph{
+        font-size: 0.8rem;
+    }
+    .social-media{
+        margin-left: 5rem;
+    }
+    .right h2{
+        font-size: 1.5rem;
+        margin-left: 5rem;
+    }
+}

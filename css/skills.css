@@ -1,0 +1,92 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #3C3535;
+}
+.skills{
+    display: flex;
+}
+.programming-languages{
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 10rem;
+}
+.programming-languages h2,.personal-skills h2,.tech-skills h2{
+    font-family: inter;
+    font-weight: 400;
+    color: white;
+}
+.personal-skills h2{
+    margin-left: 2.8rem;
+}
+.programming-icon-list,.personal-icon-list{
+    height: 3rem;
+    margin-left: 5.5rem;
+}
+.personal-skills-icon{
+    margin-left: -2rem;
+}
+.paragraph-1{
+    font-family: inter;
+    font-weight: lighter;
+    color: white;
+}
+.personal-skills,.tech-skills{
+    margin-top: 3rem;
+    margin-right: 10rem;
+
+}
+.personal-skills ul li,.tech-skills ul li{
+    list-style: none;
+    font-family: inter;
+    font-weight: lighter;
+    color: white;
+    margin-top: 1.5rem;
+    
+}
+.list-icon{
+    height: 2.0rem;
+    margin-bottom: -0.1rem;
+    margin-right: 1.3rem;
+}
+.unordered-list{
+    padding-top: 0.1rem;
+    margin-top: -0rem;
+
+}
+.listing{
+    color: white;
+}
+.tech-icon-list{
+    margin-left: 4rem
+}
+.unordered-list-c{
+    margin-top: -1rem;
+}
+
+@media screen and (max-width : 600px) {
+    .skills{
+        display: block;
+    }
+    .tech-skills{
+        margin-left: 5rem;
+    }
+    .personal-skills{
+        margin-left: 3rem;
+    }
+    .programming-languages{
+        margin-left: 5.5rem;
+    }
+    .programming-icon-list{
+        margin-left: 2.5rem;
+    }
+    .tech-skills0 ul li{
+        list-style: none;
+        font-family: inter;
+        font-weight: lighter;
+        color: white;
+        margin-top: 1.5rem;
+        
+    }
+
+}

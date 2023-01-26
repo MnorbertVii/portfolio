@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+        background-color: #3c3535;
+      }
+      .content{
+        margin-left: 2rem;
+        margin-top: 3rem;
+      }
+      .moreRead{
+        color: white;
+        font-family: inter;
+        font-weight: lighter;
+      }
+      #like{
+        height: 2.5rem;
+        width: 5rem;
+        font-size: 1rem;
+        color: white;
+        background-color: #ce7b7b;
+        border-style: none;
+      }
+      .comment{
+        display: flex;
+      }
+      #text{
+        margin-right: 3rem;
+      }
+      #like{
+        margin-bottom: 2rem;
+      }
+      #like:hover{
+        opacity: 0.8;
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+  <link rel="stylesheet" href="./css/general.css" />
+  <body class="body">
+    <div class="nav-container">
+      <header class="header">
+        <a href="index.html" class="logo"
+          >N.M.<span class="norbert">Norbert</span></a
+        >
+        <button class="hamb-btn" id="hamb-btn">
+          <i class="fa fa-bars"></i>
+        </button>
+        <nav>
+          <ul class="list" id="list">
+            <ul>
+              <a href="home.html" class="list-item">Home</a>
+            </ul>
+            <ul>
+              <a href="about.html" class="list-item">About</a>
+            </ul>
+            <ul>
+              <a href="skills.html" class="list-item">Skills</a>
+            </ul>
+            <ul>
+              <a href="blogs.html" class="list-item">Blogs</a>
+            </ul>
+            <ul>
+              <a href="projects.html" class="list-item">Projects</a>
+            </ul>
+            <ul>
+              <a href="contacts.html" class="list-item">Contacts</a>
+            </ul>
+            <ul>
+              <a href="login.html" class="list-item">Login</a>
+            </ul>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="content">
+      <div class="photo">
+        <img class="photo" src="photos/blogpage-pic.webp" alt="profile" />
+      </div>
+      <div class="more">
+        <p class="moreRead">
+          There are many variations of passages of Lorem Ipsum available,<br />
+          but the majority have suffered alteration in some form, by injected<br />
+          humour, or randomised words which don't look even slightly believable.
+          <br />
+          If you are going to use a passage of Lorem Ipsum, you need to be sure
+          there <br />
+          isn't anything embarrassing hidden in the middle of text. All the
+          Lorem Ipsum<br />
+
+          generators on the Internet tend to repeat predefined chunks as
+          necessary, making <br />
+          this the first true generator on the Internet. It uses a dictionary of
+          over 200 Latin <br />
+          words, combined with a handful of model sentence structures, to
+          generate Lorem Ipsum which<br />
+          looks reasonable. The generated Lorem Ipsum is therefore always free
+          from repetition, <br />
+          injected humour, or non-characteristic words etc.
+        </p>
+      </div>
+      <div class="like">
+        <button id="like" type="submit"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</button>
+      </div>
+      <div class="comment">
+        <textarea id="text" rows="6" cols="40" placeholder="add a comment"></textarea>
+        <button id="like" type="submit"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Send</button>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="index.html" class="logo-2"
+        >N.M.<span class="norbert-2">Norbert</span></a
+      >
+      <div class="above-line">
+        <div class="left-side">
+          <h3>
+            get more digital experiences<br />
+            that creates more happy in the<br />
+            world, with me.
+          </h3>
+        </div>
+        <div class="right-side">
+          <nav>
+            <ul>
+              <li><a href="#">overview</a></li>
+              <li><a href="#">help</a></li>
+              <li><a href="#">privacy</a></li>
+              <li><a href="blogs.html">blogs</a></li>
+              <li><a href="#">Support me</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <hr size="0.5" width="80%" color="lightgray" />
+      <div class="below-line">
+        <div class="copyright">
+          <h3>&#169;2022, All rights reserved</h3>
+        </div>
+        <div class="icons">
+          <ul class="s-icons">
+            <li>
+              <a href="#"
+                ><img class="facebook-icon" src="social-icons/facebook.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img class="linkedin-icon" src="social-icons/LinkedIn.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img class="twitter-icon" src="social-icons/Twitter.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img class="git-icon" src="social-icons/Github.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script/menu.js"></script>
+  </body>
+</html>

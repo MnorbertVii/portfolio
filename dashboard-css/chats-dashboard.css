@@ -1,0 +1,48 @@
+.chats-title{
+    margin-left: 16.8rem;
+    color: #CE7B7B;
+    font-size: 2.3rem;
+}
+.content-sctn{
+    margin-left: 16.8rem;
+
+}
+.content{
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+.prof-photo{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+.user-informations{
+    margin-top: -0.7rem;
+    margin-right: 20rem;
+    line-height: 1.4rem;
+    border: 0.1rem;
+    border-radius: 0.4rem;
+    border-style: groove;
+    border-color: #CE7B7B;
+    width: 30rem;
+}
+.name{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+}
+.mail{
+    font-family: inter;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: white;
+}
+.date{
+    font-family: inter;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: white;
+}

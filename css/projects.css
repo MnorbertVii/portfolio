@@ -1,0 +1,90 @@
+.body{
+    margin: 0;
+    padding:0;
+    background-color: #3C3535;
+}
+#prjcts{
+    font-family: poppins;
+    font-weight: bold;
+    margin-left:42rem;
+    color: #CE7B7B;;
+}
+.container{
+    display: flex;
+    padding: 0.5rem;
+   margin-top: 3.5rem;
+   margin-left: 11.5rem;
+}
+.left-side-0,.right-side-0{
+    border: 0%;
+    background-color: #333333;
+    height: 21rem;
+    margin-right: 3rem;
+    padding: 1.5rem;
+    width: 30rem;
+}
+.project-title-1,.project-title-2{
+    font-family:poppins;
+    font-weight: bold;
+    margin-left: 8rem;
+    margin-top:1.5rem;
+    color: white;
+    font-size:1.5rem
+
+}
+.project-desc-1,.project-desc-2{
+    font-family: inter;
+    font-weight: 300;
+    font-size:1rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+.buttons{
+    display:flex;
+    margin-bottom: 3rem;
+    justify-content: space-around;
+}
+.html-btn,.js-btn,.css-btn,.node-btn,.react-btn{
+    border: 0%;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 4rem;
+    background-color: #333333;
+    border-style:groove;
+    border-color: #CE7B7B;
+}
+.char{
+    color: white;
+}
+.src-code-icon{
+    height:3rem;
+}
+.demo-1,.demo-2{
+    border: 0%;
+    border-radius: 0.6rem;
+    height: 1.8rem;
+    width: 5rem;
+    background-color: #CE7B7B;
+    border-style: hidden;
+    margin-left: 3rem;
+    margin-right: 6rem;
+}
+.source-codes-1,.source-codes-2{
+    border: 0%;
+    border-radius: 0.6rem;
+    height: 1.8rem;
+    width: 8rem;
+    background-color: #CE7B7B;
+    border-style: hidden;
+}
+.source-content{
+    font-family: inter;
+    font-weight: 400;
+    color: white;
+    font-size: 0.9rem;
+}
+.demo-1 a,.source-codes-1 a,.demo-2 a,.source-codes-2 a{
+    text-decoration: none;
+
+}
+
